@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4ce443e3d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Score Tracker</title>
+</head>
+<body>
+    <section id="header">
+        <div>
+            <h1>Score Tracker</h1>
+        </div>
+    </section>
+    <section id="content">
+        <div>
+            <h1 id="score"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+            <h5>Use the buttons bellow to keep score.</h5>
+            <div>
+                <label for="totalRounds" id="label">Number of Rounds:</label>
+                <select name="" id="totalRounds">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button id="addPlayerOne">+1 Player One</button>
+            <button id="addPlayerTwo">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+    <section id="footer">
+        <div>
+            <h1>Kalen Gladu-Lauridsen</h1>
+            <a href="https://github.com/KalenGladu-Lauridsen" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kalen-gladu-lauridsen-7698491bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+html {
+    background-color: #BFBFBF;
+    color: #0D0D0D;
+}
+.win {
+    color: green;
+}
+.lose {
+    color: red;
+}
+#header, #content, #footer {
+    display: block;
+    text-align: center;
+}
+#footer, #header {
+    width: 100%;
+    padding: 0.5rem;
+    background: #262626;
+    color: #BFBFBF;
+}
+#content {
+    min-height: 71vh;
+}
+#score {
+    font-size: 28pt;
+}
+#footer a {
+    text-decoration: none;
+    color: #BFBFBF;
+}
+#footer a:hover {
+    color: red;
+}
